@@ -1,0 +1,33 @@
+body {
+  font-family: serif;
+}
+.bgrd,
+footer.footer {
+  background-color: hsla(254, 75%, 16%, 1);
+  background-image: radial-gradient(
+      at 28% 26%,
+      hsla(304, 100%, 26%, 1) 0,
+      transparent 50%
+    ),
+    radial-gradient(at 98% 0%, hsla(268, 100%, 26%, 1) 0, transparent 50%),
+    radial-gradient(at 3% 73%, hsla(274, 100%, 26%, 1) 0, transparent 50%),
+    radial-gradient(at 96% 69%, hsla(308, 100%, 26%, 1) 0, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(312, 100%, 26%, 1) 0, transparent 50%),
+    radial-gradient(at 82% 93%, hsla(321, 100%, 26%, 1) 0, transparent 50%),
+    radial-gradient(at 0% 0%, hsla(293, 100%, 26%, 1) 0, transparent 50%);
+}
+.btn-zaoblen {
+  border-radius: 50px;
+}
+
+.logo-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-brand {
+  font-weight: 900;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
