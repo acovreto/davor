@@ -31,3 +31,31 @@ footer.footer {
   font-size: 30px;
   letter-spacing: 3px;
 }
+.offcanvas{
+  width: 50% !important;
+  padding: 30px;
+  
+}
+
+.product{
+  font-size: 20px;
+  border-bottom: 1px solid #aaa;
+  
+
+}
+.cart-header{
+  font-size: 24px;
+}
+#kolicina{
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  width: 60%;
+}
+.cart-img{
+  border: 1px solid #aaa;
+}
+.subtota{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
