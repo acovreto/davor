@@ -31,31 +31,45 @@ footer.footer {
   font-size: 30px;
   letter-spacing: 3px;
 }
-.offcanvas{
+.offcanvas {
   width: 50% !important;
   padding: 30px;
-  
 }
 
-.product{
+.product {
   font-size: 20px;
   border-bottom: 1px solid #aaa;
-  
-
 }
-.cart-header{
+.cart-header {
   font-size: 24px;
 }
-#kolicina{
+#kolicina {
   border: 1px solid #aaa;
   border-radius: 5px;
   width: 60%;
 }
-.cart-img{
+.cart-img {
   border: 1px solid #aaa;
 }
-.subtota{
+.subtota {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.cart-tittle {
+  text-align: center !important;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.btn-close {
+  font-size: 20px;
+}
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttons .btn {
+  font-size: 20px;
 }
