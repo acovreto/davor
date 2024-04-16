@@ -25,6 +25,65 @@
     <title>DIVA</title>
   </head>
   <body>
+    <div class="offcanvas offcanvas-end" id="demo">
+      <div class="offcanvas-header">
+        <h1 class="offcanvas-title text-center cart-tittle">Кошничка</h1>
+        <button
+          type="button"
+          class="btn-close btn-lg"
+          data-bs-dismiss="offcanvas"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <link
+          href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+          rel="stylesheet"
+        />
+        <div class="container cart-header">
+          <div class="row">
+            <div class="col-4">Продукт</div>
+            <div class="col-2">Цена</div>
+            <div class="col-2">Количина</div>
+            <div class="col-2">Износ</div>
+            <div class="col-2"></div>
+          </div>
+          <div class="products">
+            <div class="product-info">
+              <h3 class="empty">Кошничката е празна!</h3>
+              <!-- <div class="row product d-flex align-items-center justify-content-center">
+          <div class="col-4"><img class="cart-img" src="./Parfemi/armani logo i sliki/absolu.jpg" width="50" height="50" alt=""><span class="product-title">Product</span></div>
+          <div class="col-2"><span class="price">200</span>$</div>
+          <div class="col-2"><input type="number" name="" id="kolicina" value="1"></div>
+          <div class="col-2 subtotal"><span class="subtotal">200</span><span>$</span></div>
+          <div class="col-2"><button class="btn btn-danger">
+            <i class="fa fa-trash-o"></i>
+          </button></div> -->
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2">Тотал</div>
+            <div class="col-4"></div>
+            <div class="col-2"></div>
+            <div class="col-2"><span class="total">0</span>$</div>
+            <div class="col-2"></div>
+          </div>
+        </div>
+
+        <div class="buttons">
+          <button
+            class="btn btn-lg btn-warning text-white"
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+          >
+            Продолжи со купување
+          </button>
+          <a href="./plati.html"
+            ><button class="btn btn-lg btn-success text-white">Плати</button></a
+          >
+        </div>
+      </div>
+    </div>
     <header class="header" data-header>
       <div class="container">
         <div class="overlay" data-overlay></div>
@@ -55,20 +114,35 @@
 
           <ul class="navbar-list">
             <li class="navbar-item">
-              <a href="#" class="navbar-link">Дома</a>
+              <a href="index.html" class="navbar-link">Дома</a>
             </li>
 
             <li class="navbar-item">
-              <a href="#" class="navbar-link">Парфеми</a>
+              <a href="armani.html" class="navbar-link">Armani</a>
             </li>
 
             <li class="navbar-item">
-              <a href="#" class="navbar-link">За нас</a>
+              <a href="Mancera.html" class="navbar-link">Mancera</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="versace.html" class="navbar-link">Versace</a>
             </li>
             <li class="navbar-item">
-              <a href="#" class="navbar-link">Контакт</a>
+              <a href="JPG.html" class="navbar-link">JPG</a>
+            </li>
+            <li class="navbar-item">
+              <a href="xerjoff.html" class="navbar-link">Xerjoff</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="zanas.html" class="navbar-link">За нас</a>
+            </li>
+            <li class="navbar-item">
+              <a href="contact.html" class="navbar-link">Контакт</a>
             </li>
           </ul>
+          >
 
           <ul class="nav-action-list">
             <li>
@@ -128,11 +202,11 @@
             <div class="product-card" tabindex="0">
               <figure class="card-banner">
                 <img
-                  src="./Parfemi/armani logo i sliki/absolu.jpg"
+                  src="Parfemi/armani logo i sliki/absolu.jpg"
                   width="312"
                   height="350"
                   loading="lazy"
-                  alt="Running Sneaker Shoes"
+                  alt="Armani absolu"
                   class="image-contain"
                 />
 
@@ -143,6 +217,8 @@
                     <button
                       class="card-action-btn"
                       aria-labelledby="card-label-1"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#demo"
                     >
                       <ion-icon name="cart-outline"></ion-icon>
                     </button>
@@ -200,7 +276,7 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#">Running Sneaker Shoes</a>
+                  <a href="#">Armani Code Absolu</a>
                 </h3>
 
                 <data class="card-price" value="180.85">$180.85</data>
@@ -225,6 +301,8 @@
                     <button
                       class="card-action-btn"
                       aria-labelledby="card-label-1"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#demo"
                     >
                       <ion-icon name="cart-outline"></ion-icon>
                     </button>
@@ -282,7 +360,7 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#">Leather Mens Slipper</a>
+                  <a href="#">Acqua Di Gio Absolu</a>
                 </h3>
 
                 <data class="card-price" value="190.85">$190.85</data>
@@ -294,7 +372,7 @@
             <div class="product-card" tabindex="0">
               <figure class="card-banner">
                 <img
-                  src="./Parfemi/JPG/beau.jpg"
+                  src="./Parfemi/armani logo i sliki/profumo.jpg"
                   width="312"
                   height="350"
                   loading="lazy"
@@ -309,6 +387,8 @@
                     <button
                       class="card-action-btn"
                       aria-labelledby="card-label-1"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#demo"
                     >
                       <ion-icon name="cart-outline"></ion-icon>
                     </button>
@@ -366,7 +446,7 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#">Simple Fabric Shoe</a>
+                  <a href="#">Acqua Di Gio Profumo</a>
                 </h3>
 
                 <data class="card-price" value="160.85">$160.85</data>
@@ -378,7 +458,7 @@
             <div class="product-card" tabindex="0">
               <figure class="card-banner">
                 <img
-                  src="./Parfemi/bleu-de-chanel.png"
+                  src="./Parfemi/armani logo i sliki/pronfondo.jpg"
                   width="312"
                   height="350"
                   loading="lazy"
@@ -393,6 +473,8 @@
                     <button
                       class="card-action-btn"
                       aria-labelledby="card-label-1"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#demo"
                     >
                       <ion-icon name="cart-outline"></ion-icon>
                     </button>
@@ -450,7 +532,7 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#">Air Jordan 7 Retro </a>
+                  <a href="#">Acqua Di Gio Profondo</a>
                 </h3>
 
                 <data class="card-price" value="170.85"
@@ -464,7 +546,7 @@
             <div class="product-card" tabindex="0">
               <figure class="card-banner">
                 <img
-                  src="./Parfemi/JPG/lmle.jpg"
+                  src="./Parfemi/armani logo i sliki/Profumo.png"
                   width="312"
                   height="350"
                   loading="lazy"
@@ -479,6 +561,8 @@
                     <button
                       class="card-action-btn"
                       aria-labelledby="card-label-1"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#demo"
                     >
                       <ion-icon name="cart-outline"></ion-icon>
                     </button>
@@ -536,7 +620,7 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#">Nike Air Max 270 SE</a>
+                  <a href="#">Armani Code Profumo</a>
                 </h3>
 
                 <data class="card-price" value="120.85">$120.85</data>
@@ -548,7 +632,7 @@
             <div class="product-card" tabindex="0">
               <figure class="card-banner">
                 <img
-                  src="./Parfemi/Mancera/Lemon-Line.jpg"
+                  src="./Parfemi/armani logo i sliki/EDT.png"
                   width="312"
                   height="350"
                   loading="lazy"
@@ -561,6 +645,8 @@
                     <button
                       class="card-action-btn"
                       aria-labelledby="card-label-1"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#demo"
                     >
                       <ion-icon name="cart-outline"></ion-icon>
                     </button>
@@ -618,7 +704,7 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#">Adidas Sneakers Shoes</a>
+                  <a href="#">Acqua Di Gio EDT</a>
                 </h3>
 
                 <data class="card-price" value="100.85">$100.85</data>
@@ -630,7 +716,7 @@
             <div class="product-card" tabindex="0">
               <figure class="card-banner">
                 <img
-                  src="./Parfemi/Versace/61OexCRShhL._AC_UF1000,1000_QL80_.jpg"
+                  src="./Parfemi/armani logo i sliki/stronger-with-you-intensely-edp.jpg"
                   width="312"
                   height="350"
                   loading="lazy"
@@ -643,6 +729,8 @@
                     <button
                       class="card-action-btn"
                       aria-labelledby="card-label-1"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#demo"
                     >
                       <ion-icon name="cart-outline"></ion-icon>
                     </button>
@@ -700,7 +788,7 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#">Nike Basketball shoes</a>
+                  <a href="#">Armani Stronger With You Intensely</a>
                 </h3>
 
                 <data class="card-price" value="120.85">$120.85</data>
@@ -712,7 +800,7 @@
             <div class="product-card" tabindex="0">
               <figure class="card-banner">
                 <img
-                  src="./Parfemi/xerjoff/Ouverture.jpg"
+                  src="./Parfemi/armani logo i sliki/Stronger-With-You-Absolutely.jpg"
                   width="312"
                   height="350"
                   loading="lazy"
@@ -725,6 +813,8 @@
                     <button
                       class="card-action-btn"
                       aria-labelledby="card-label-1"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#demo"
                     >
                       <ion-icon name="cart-outline"></ion-icon>
                     </button>
@@ -782,7 +872,7 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#">Simple Fabric Shoe</a>
+                  <a href="#">Armani Stronger With You Absolutely</a>
                 </h3>
 
                 <data class="card-price" value="100.85">$100.85</data>
@@ -810,5 +900,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>

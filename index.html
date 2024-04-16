@@ -20,9 +20,7 @@
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  </head>
+
     <link rel="stylesheet" href="style.css" />
     <title>DIVA</title>
   </head>
@@ -42,17 +40,17 @@
           rel="stylesheet"
         />
         <div class="container cart-header">
-         <div class="row">
-          <div class="col-4">Продукт</div>
-          <div class="col-2">Цена</div>
-          <div class="col-2">Количина</div>
-          <div class="col-2">Износ</div>
-          <div class="col-2"></div>
-         </div>
-         <div class="products">
-         <div class="product-info">
-          <h3 class="empty">Кошничката е празна!</h3>
-         <!-- <div class="row product d-flex align-items-center justify-content-center">
+          <div class="row">
+            <div class="col-4">Продукт</div>
+            <div class="col-2">Цена</div>
+            <div class="col-2">Количина</div>
+            <div class="col-2">Износ</div>
+            <div class="col-2"></div>
+          </div>
+          <div class="products">
+            <div class="product-info">
+              <h3 class="empty">Кошничката е празна!</h3>
+              <!-- <div class="row product d-flex align-items-center justify-content-center">
           <div class="col-4"><img class="cart-img" src="./Parfemi/armani logo i sliki/absolu.jpg" width="50" height="50" alt=""><span class="product-title">Product</span></div>
           <div class="col-2"><span class="price">200</span>$</div>
           <div class="col-2"><input type="number" name="" id="kolicina" value="1"></div>
@@ -60,24 +58,29 @@
           <div class="col-2"><button class="btn btn-danger">
             <i class="fa fa-trash-o"></i>
           </button></div> -->
-         </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2">Тотал</div>
+            <div class="col-4"></div>
+            <div class="col-2"></div>
+            <div class="col-2"><span class="total">0</span>$</div>
+            <div class="col-2"></div>
+          </div>
         </div>
-         <div class="row">
-          <div class="col-2">Тотал</div>
-         <div class="col-4"></div>
-         <div class="col-2"></div>
-         <div class="col-2 "><span class="total">0</span>$</div>
-         <div class="col-2"></div>
-    
-        </div>
-        </div>
-         
+
         <div class="buttons">
-          <button class="btn btn-lg btn-warning text-white"  type="button"
-          class="btn-close"
-          data-bs-dismiss="offcanvas">Продолжи со купување</button>
-          <button class="btn btn-lg btn-success text-white" >Плати</button>
-        </div>
+          <button
+            class="btn btn-lg btn-warning text-white"
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+          >
+            Продолжи со купување
+          </button>
+          <a href="./plati.html"
+            ><button class="btn btn-lg btn-success text-white">Плати</button></a
+          >
         </div>
       </div>
     </div>
@@ -111,18 +114,32 @@
 
           <ul class="navbar-list">
             <li class="navbar-item">
-              <a href="#" class="navbar-link">Дома</a>
+              <a href="index.html" class="navbar-link">Дома</a>
             </li>
 
             <li class="navbar-item">
-              <a href="#" class="navbar-link">Парфеми</a>
+              <a href="armani.html" class="navbar-link">Armani</a>
             </li>
 
             <li class="navbar-item">
-              <a href="#" class="navbar-link">За нас</a>
+              <a href="Mancera.html" class="navbar-link">Mancera</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="versace.html" class="navbar-link">Versace</a>
             </li>
             <li class="navbar-item">
-              <a href="#" class="navbar-link">Контакт</a>
+              <a href="JPG.html" class="navbar-link">JPG</a>
+            </li>
+            <li class="navbar-item">
+              <a href="xerjoff.html" class="navbar-link">Xerjoff</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="zanas.html" class="navbar-link">За нас</a>
+            </li>
+            <li class="navbar-item">
+              <a href="contact.html" class="navbar-link">Контакт</a>
             </li>
           </ul>
 
@@ -190,15 +207,14 @@
               CHANEL Bleu de Chanel EDP
             </h1>
             <p class="lead">
-              Quickly design and customize responsive mobile-first sites with
-              Bootstrap, the world’s most popular front-end open source toolkit,
-              featuring Sass variables and mixins, responsive grid system,
-              extensive prebuilt components, and powerful JavaScript plugins.
+              Парфем што те носи на мистично патување низ тајнствените часови на
+              ноќта. Овој парфем е совршена смеса од топлина и мистерија,
+              дизајниран да ја освои твојата сензорна перцепција.
             </p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
               <button
                 type="button"
-                class="btn btn-warning btn-lg px-4 me-md-2 btn-zaoblen"
+                class="btn btn-warning btn-lg px-5 me-md-2 btn-zaoblen"
               >
                 Повеќе
               </button>
@@ -330,7 +346,7 @@
                   width="312"
                   height="350"
                   loading="lazy"
-                  alt="Running Sneaker Shoes"
+                  alt="Armani Code Absolu"
                   class="image-contain"
                 />
 
@@ -341,7 +357,8 @@
                     <button
                       class="card-action-btn"
                       aria-labelledby="card-label-1"
-                      data-bs-toggle="offcanvas" data-bs-target="#demo"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#demo"
                     >
                       <ion-icon name="cart-outline"></ion-icon>
                     </button>
@@ -355,12 +372,11 @@
                     <button
                       class="card-action-btn"
                       aria-labelledby="card-label-2"
-                      data-bs-toggle="offcanvas" data-bs-target="#demo"
                     >
                       <ion-icon name="heart-outline"></ion-icon>
                     </button>
 
-                    <div class="card-action-tooltip" id="card-label-2" >
+                    <div class="card-action-tooltip" id="card-label-2">
                       Add to Whishlist
                     </div>
                   </li>
@@ -400,7 +416,7 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#">Running Sneaker Shoes</a>
+                  <a href="#">Armani Code Absolu</a>
                 </h3>
 
                 <data class="card-price" value="180.85">$180.85</data>
@@ -416,7 +432,7 @@
                   width="312"
                   height="350"
                   loading="lazy"
-                  alt="Leather Mens Slipper"
+                  alt="Acqua Di Gio Absolu"
                   class="image-contain"
                 />
 
@@ -425,6 +441,8 @@
                     <button
                       class="card-action-btn"
                       aria-labelledby="card-label-1"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#demo"
                     >
                       <ion-icon name="cart-outline"></ion-icon>
                     </button>
@@ -482,7 +500,7 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#">Leather Mens Slipper</a>
+                  <a href="#">Acqua Di Gio Absolu</a>
                 </h3>
 
                 <data class="card-price" value="190.85">$190.85</data>
@@ -509,6 +527,8 @@
                     <button
                       class="card-action-btn"
                       aria-labelledby="card-label-1"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#demo"
                     >
                       <ion-icon name="cart-outline"></ion-icon>
                     </button>
@@ -566,7 +586,7 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#">Simple Fabric Shoe</a>
+                  <a href="#">Jean Paul Gaultier Le Beau</a>
                 </h3>
 
                 <data class="card-price" value="160.85">$160.85</data>
@@ -582,7 +602,7 @@
                   width="312"
                   height="350"
                   loading="lazy"
-                  alt="Air Jordan 7 Retro "
+                  alt="Bleu De Chanel"
                   class="image-contain"
                 />
 
@@ -593,6 +613,8 @@
                     <button
                       class="card-action-btn"
                       aria-labelledby="card-label-1"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#demo"
                     >
                       <ion-icon name="cart-outline"></ion-icon>
                     </button>
@@ -650,7 +672,7 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#">Air Jordan 7 Retro </a>
+                  <a href="#">Bleu De Chanel </a>
                 </h3>
 
                 <data class="card-price" value="170.85"
@@ -679,6 +701,8 @@
                     <button
                       class="card-action-btn"
                       aria-labelledby="card-label-1"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#demo"
                     >
                       <ion-icon name="cart-outline"></ion-icon>
                     </button>
@@ -736,7 +760,7 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#">Nike Air Max 270 SE</a>
+                  <a href="#">Jean Paul Gaultier Le Male Elixir </a>
                 </h3>
 
                 <data class="card-price" value="120.85">$120.85</data>
@@ -761,6 +785,8 @@
                     <button
                       class="card-action-btn"
                       aria-labelledby="card-label-1"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#demo"
                     >
                       <ion-icon name="cart-outline"></ion-icon>
                     </button>
@@ -818,7 +844,7 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#">Adidas Sneakers Shoes</a>
+                  <a href="#">Mancera Lemon Line</a>
                 </h3>
 
                 <data class="card-price" value="100.85">$100.85</data>
@@ -843,6 +869,8 @@
                     <button
                       class="card-action-btn"
                       aria-labelledby="card-label-1"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#demo"
                     >
                       <ion-icon name="cart-outline"></ion-icon>
                     </button>
@@ -900,7 +928,7 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#">Nike Basketball shoes</a>
+                  <a href="#">Versace Pour Homme</a>
                 </h3>
 
                 <data class="card-price" value="120.85">$120.85</data>
@@ -925,6 +953,8 @@
                     <button
                       class="card-action-btn"
                       aria-labelledby="card-label-1"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#demo"
                     >
                       <ion-icon name="cart-outline"></ion-icon>
                     </button>
@@ -982,7 +1012,7 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#">Simple Fabric Shoe</a>
+                  <a href="#">Xerjoff Ouverture</a>
                 </h3>
 
                 <data class="card-price" value="100.85">$100.85</data>

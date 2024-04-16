@@ -73,3 +73,6 @@ footer.footer {
 .buttons .btn {
   font-size: 20px;
 }
+span {
+  display: inline;
+}

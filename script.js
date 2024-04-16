@@ -115,31 +115,38 @@ kupiSegaElements.forEach((el) => {
     const trashEls = products.querySelectorAll(".trash");
     trashEls.forEach((trash) => {
       trash.addEventListener("click", () => {
-        if (products.querySelectorAll(".product-info").length == 1) {
+        console.log(products.querySelectorAll(".product-info").length);
+        if (products.querySelectorAll(".product-info").length == 0) {
           trash.closest(".product-info").innerHTML =
             "<h3 class='empty'>Кошничката е празна!</h3>";
           totalEl.textContent = "0";
         } else {
           let closestProductIfo = trash.closest(".product-info");
-          console.log(closestProductIfo);
+
           closestProductIfo.remove();
           allSubTotals = document
             .querySelector(".offcanvas")
             .querySelectorAll(".subtotal");
+          console.log(allSubTotals);
           let total = 0;
           allSubTotals.forEach((subtotal) => {
             total += Number(subtotal.textContent);
           });
+          console.log(total);
           totalEl = document
             .querySelector(".offcanvas")
             .querySelector(".total");
-          totalEl.textContent = total;
+          console.log(totalEl);
+          totalEl.innerHTML = total;
+          console.log(totalEl.textContent);
+          
         }
+        console.log(products.querySelectorAll(".product-info").length);
       });
     });
   });
 });
 let subtotal = (price, kolicina = 1) => {
-  console.log(price * kolicina);
   return price * kolicina;
 };
+

@@ -114,7 +114,7 @@
             </li>
 
             <li>
-              <button class="nav-action-btn">
+              <button class="nav-action-btn cart">
                 <a href="cart.html"
                   ><ion-icon name="bag-outline" aria-hidden="true"></ion-icon
                 ></a>
@@ -132,21 +132,160 @@
         </nav>
       </div>
     </header>
+    <section class="hero bgrd">
+      <div class="container py-5 text-light">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-3">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img
+              src="./Parfemi/bleu-de-chanel.png"
+              class="d-block mx-lg-auto img-fluid"
+              alt="Bootstrap Themes"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">
+              CHANEL Bleu de Chanel EDP
+            </h1>
+            <p class="lead">
+            Парфем што те носи на мистично патување низ тајнствените часови на ноќта. Овој парфем е совршена смеса од топлина и мистерија, дизајниран да ја освои твојата сензорна перцепција.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button
+                type="button"
+                class="btn btn-warning btn-lg px-5 me-md-2 btn-zaoblen"
+              >
+                Повеќе
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="container">
+      <div class="d-flex justify-content-around mb-3">
+        <div class="p-2">
+          <a href="armani.html">
+            <img
+              src="./Parfemi/armani logo i sliki/armani8432.jpg"
+              height="100"
+              alt=""
+            />
+          </a>
+        </div>
+        <a href="Mancera.html">
+          <div class="p-2">
+            <img src="./Parfemi/Mancera/LOGO.jpg" height="100" alt="" />
+          </div>
+        </a>
+        <a href="versace.html">
+          <div class="p-2">
+            <img src="./Parfemi/Versace/Logo.png" height="100" alt="" />
+          </div>
+        </a>
+        <a href="xerjoff.html">
+          <div class="p-2">
+            <img src="./Parfemi/xerjoff/Xerjoff logo.jpg" height="100" />
+          </div>
+        </a>
+      </div>
+    </section>
+    <!-- <section class="section collection">
+      <div class="container">
+        <ul class="collection-list has-scrollbar">
+          <li>
+            <div
+              class="collection-card"
+              style="background-image: url('./assets/images/collection-1.jpg')"
+            >
+              <h3 class="h4 card-title">Машки парфеми</h3>
+
+              <a href="#" class="btn btn-secondary">
+                <span>Види Повеќе</span>
+
+                <ion-icon
+                  name="arrow-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </a>
+            </div>
+          </li>
+
+          <li>
+            <div
+              class="collection-card"
+              style="background-image: url('./assets/images/collection-2.jpg')"
+            >
+              <h3 class="h4 card-title">Women Collections</h3>
+
+              <a href="#" class="btn btn-secondary">
+                <span>Explore All</span>
+
+                <ion-icon
+                  name="arrow-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </a>
+            </div>
+          </li>
+
+          <li>
+            <div
+              class="collection-card"
+              style="background-image: url('./assets/images/collection-3.jpg')"
+            >
+              <h3 class="h4 card-title">Sports Collections</h3>
+
+              <a href="#" class="btn btn-secondary">
+                <span>Explore All</span>
+
+                <ion-icon
+                  name="arrow-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section> -->
     <section class="section product">
       <div class="container">
-        <h2 class="h2 section-title">Mancera</h2>
+        <h2 class="h2 section-title">Најпродавани парфеми</h2>
+
+        <ul class="filter-list">
+          <li>
+            <button class="filter-btn active">All</button>
+          </li>
+
+          <li>
+            <button class="filter-btn">Armani</button>
+          </li>
+
+          <li>
+            <button class="filter-btn">Versace</button>
+          </li>
+
+          <li>
+            <button class="filter-btn">JPG</button>
+          </li>
+
+          <li>
+            <button class="filter-btn">xerjoff</button>
+          </li>
+        </ul>
 
         <ul class="product-list">
           <li class="product-item">
             <div class="product-card" tabindex="0">
               <figure class="card-banner">
                 <img
-                  src="./Parfemi/Mancera/Holidays.jpg"
+                  src="./Parfemi/armani logo i sliki/absolu.jpg"
                   width="312"
                   height="350"
                   loading="lazy"
-                  alt="Running Sneaker Shoes"
+                  alt="Armani Code Absolu"
                   class="image-contain"
                 />
 
@@ -214,7 +353,7 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#">Mancera Holidays</a>
+                  <a href="#">Armani Code Absolu</a>
                 </h3>
 
                 <data class="card-price" value="180.85">$180.85</data>
@@ -226,11 +365,11 @@
             <div class="product-card" tabindex="0">
               <figure class="card-banner">
                 <img
-                  src="./Parfemi/Mancera/mancera-cedrat-boise-edp-1.jpg"
+                  src="./Parfemi/armani logo i sliki//asdasdasdasabsolu.jpg"
                   width="312"
                   height="350"
                   loading="lazy"
-                  alt="Leather Mens Slipper"
+                  alt="Acqua Di Gio Absolu"
                   class="image-contain"
                 />
 
@@ -296,7 +435,7 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#">Mancera Cedrat Boise</a>
+                  <a href="#">Acqua Di Gio Absolu</a>
                 </h3>
 
                 <data class="card-price" value="190.85">$190.85</data>
@@ -308,7 +447,7 @@
             <div class="product-card" tabindex="0">
               <figure class="card-banner">
                 <img
-                  src="./Parfemi/Mancera/mancera-red-tobacco-edp-3.jpg"
+                  src="./Parfemi/JPG/beau.jpg"
                   width="312"
                   height="350"
                   loading="lazy"
@@ -380,7 +519,7 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#">Mancera Red Tobacco</a>
+                  <a href="#">Jean Paul Gaultier Le Beau</a>
                 </h3>
 
                 <data class="card-price" value="160.85">$160.85</data>
@@ -392,11 +531,11 @@
             <div class="product-card" tabindex="0">
               <figure class="card-banner">
                 <img
-                  src="./Parfemi/Mancera/Instant-Crush.jpg"
+                  src="./Parfemi/bleu-de-chanel.png"
                   width="312"
                   height="350"
                   loading="lazy"
-                  alt="Air Jordan 7 Retro "
+                  alt="Bleu De Chanel"
                   class="image-contain"
                 />
 
@@ -464,7 +603,7 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#">Mancera  Instant Crush</a>
+                  <a href="#">Bleu De Chanel </a>
                 </h3>
 
                 <data class="card-price" value="170.85"
@@ -478,7 +617,7 @@
             <div class="product-card" tabindex="0">
               <figure class="card-banner">
                 <img
-                  src="./Parfemi/Mancera/mancera-coco-vanille-eau-de-parfum-120ml_19929112_44929250_1000.jpg"
+                  src="./Parfemi/JPG/lmle.jpg"
                   width="312"
                   height="350"
                   loading="lazy"
@@ -550,7 +689,9 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#">Mancera Coco Vanille</a>
+                  <a href="#">Jean Paul Gaultier
+                    Le Male Elixir
+                  </a>
                 </h3>
 
                 <data class="card-price" value="120.85">$120.85</data>
@@ -632,7 +773,7 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#">Mancera Lemon Lime</a>
+                  <a href="#">Mancera Lemon Line</a>
                 </h3>
 
                 <data class="card-price" value="100.85">$100.85</data>
@@ -644,7 +785,7 @@
             <div class="product-card" tabindex="0">
               <figure class="card-banner">
                 <img
-                  src="./Parfemi/Mancera/mancera-black-gold-edp-1.jpg"
+                  src="./Parfemi/Versace/61OexCRShhL._AC_UF1000,1000_QL80_.jpg"
                   width="312"
                   height="350"
                   loading="lazy"
@@ -714,7 +855,7 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#">Mancera Black Gold</a>
+                  <a href="#">Versace Pour Homme</a>
                 </h3>
 
                 <data class="card-price" value="120.85">$120.85</data>
@@ -726,7 +867,7 @@
             <div class="product-card" tabindex="0">
               <figure class="card-banner">
                 <img
-                  src="./Parfemi/Mancera/mancera-roses-vanille-eau-de-parfum-120ml_17859610_37803185_2048.jpg"
+                  src="./Parfemi/xerjoff/Ouverture.jpg"
                   width="312"
                   height="350"
                   loading="lazy"
@@ -796,7 +937,7 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#">Mancera Roses Vanille</a>
+                  <a href="#">Xerjoff Ouverture</a>
                 </h3>
 
                 <data class="card-price" value="100.85">$100.85</data>
@@ -824,5 +965,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
